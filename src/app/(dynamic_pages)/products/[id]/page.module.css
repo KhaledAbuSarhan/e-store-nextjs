@@ -1,0 +1,63 @@
+.header {
+
+}
+
+.container {
+
+}
+
+.info {
+
+}
+
+.title {
+
+}
+
+.description {
+    font-size: 18px;
+}
+.content {
+    width: 100%;
+}
+.imageContainer {
+    position: relative;
+    height: 300px;
+    margin: 25px 0;
+}
+
+.image {
+    object-fit: contain;
+    border-radius: 15px;
+}
+
+.category {
+    position: absolute;
+    background-color: var(--color-primary);
+    color: #111;
+    padding: 5px 10px;
+    bottom: 0;
+    right: 0;
+}
+
+.text {
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    white-space: wrap;
+    height: auto;
+}
+.gallery {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px;
+}
+@media (max-width: 781px) {
+    .gallery {
+        flex-direction: column;
+        margin: 20px auto;
+        align-items: center;
+}
+}

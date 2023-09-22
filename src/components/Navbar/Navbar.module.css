@@ -1,0 +1,32 @@
+.logo {
+    font-weight: bold;
+    font-size: 22px;
+    color: inherit;
+}
+.container {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+@media (max-width: 781px) {
+    .container {
+        flex-direction: column;
+        scale: 0.9;
+    }
+}
+@media (max-width: 400px) {
+    .container {
+        flex-direction: column;
+        scale: 0.7;
+    }
+}
+.links  {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.link {
+    color: inherit;
+}

@@ -1,0 +1,53 @@
+.form {
+    margin: 40px auto;
+}
+.formGroup {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+}
+.formGroup label {
+    flex-basis: 10%;
+    padding-top: 18px;
+    display: flex;
+
+}
+.formGroup input , .formGroup textarea {
+    color: inherit;
+    flex-basis: 70%;
+    display: block;
+    margin-bottom: 25px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    background-color: inherit;
+    caret-color: var(--color-primary);
+}
+@media (min-width: 781px) {
+    .formGroup input , .formGroup textarea 
+    {
+        flex-basis: 40%;
+    }
+    .formGroup  {
+        justify-content: flex-start;
+    }
+}
+@media (max-width: 400px) {
+    .formGroup input , .formGroup textarea 
+    {
+        flex-basis: 30%;
+        padding: 0%;
+    }
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    
+}
+@media (min-width: 768px) {
+    .btn {
+        transform: translateX(-25%);
+}
+}
